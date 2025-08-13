@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loai Maklad Portfolio</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, sans-serif;
+            margin: 0;
+            background-color: #f5f7fa;
+            color: #222;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(135deg, #0f172a, #1e293b);
+            color: #fff;
+            padding: 3rem 1rem;
+            text-align: center;
+        }
+        header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 3px solid #fff;
+            margin-bottom: 1rem;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #1e293b;
+            flex-wrap: wrap;
+        }
+        nav a {
+            color: white;
+            padding: 1rem;
+            text-decoration: none;
+            transition: background 0.3s;
+        }
+        nav a:hover {
+            background-color: #334155;
+        }
+        section {
+            padding: 2rem;
+            max-width: 1000px;
+            margin: auto;
+        }
+        h2 {
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1rem;
+        }
+        .skills {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+        }
+        .skill {
+            background: white;
+            padding: 1rem;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .skill li {
+            margin-top: 20px;
+        }
+        footer {
+            background: #0f172a;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+        .links li {
+            margin-top: 20px;
+        }
+        .links a {
+            color: #2563eb;
+            text-decoration: none;
+            margin-bottom: 0.5rem;
+        }
+        .links a:hover {
+            text-decoration: underline;
+        }
+        .social {
+            text-align: center;
+            margin-top: 1rem;
+        }
+        #ecpc figure {
+            width: 100%;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        #ecpc figure img {
+            width: 100%;
+        }
+        #ecpc p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        .social a {
+            margin: 0 10px;
+            display: inline-block;
+            color: #2563eb;
+            font-size: 1.2rem;
+            text-decoration: none;
+        }
+        @media screen and (max-width:340px) {
+            header h1{
+                font-size: 20px;
+            }
+            #ecpc p {
+                font-size: 15px;
+            }
+            body {
+                font-size: 11px;
+            }
+            .skill li {
+                margin-top: 11px;
+            }
+            .social a {
+                font-size: 11px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="/Loai.jpg" alt="Loai Maklad Photo">
+        <h1>Loai Maklad 16-year-old student portfolio</h1>
+        <p>Personal portfolio showcasing skills, achievements, and programming passion</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills & Achievements</a>
+        <a href="#ecpc">Certificates</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me ?</h2>
+        <p>
+            I am a dedicated programmer with a deep-seated passion for algorithms and problem-solving. My journey in coding has allowed me to explore a diverse range of languages, including C++, Python, JavaScript, HTML, CSS, Java, and Kotlin. While my current projects are not yet public, my focus is consistently on mastering the core principles of computer science. I thrive on tackling complex challenges and believe that a strong foundation in logic and data structures is the true art of development. I am constantly seeking to apply my skills and deepen my understanding through competitive programming and continuous learning.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills & Achievements</h2>
+        <div class="skills">
+            <div class="skill">
+                <h3>Technical Skills</h3>
+                <ul>
+                    <li>Data Structures & Algorithms</li>
+                    <li>Web Application Development</li>
+                    <li>Math-Logical Problem Solver</li>
+                    <li>Multi-language Programming</li>
+                    <li>Fields: Web Development, Android Development, Competitive Programming, Cybersecurity Fundamentals</li>
+                </ul>
+            </div>
+            <div class="skill">
+                <h3>Achievements</h3>
+                <ul>
+                    <li>Excellent basic programming, algorithmic and mathematical thinking</li>
+                    <li>C++ & Python Programmer</li>
+                    <li>Participant in ECPC Teens with a strong ranking</li>
+                    <li>Udacity Nanodegree: Deci Level 1 & 2</li>
+                    <li>Solved 200+ problems on Codeforces in 3 months</li>
+                    <li>Ranked among top 30% contestants in ECPC 2025 Contest</li>
+                    <li>Small random projects in GitHub ;)</li>
+                </ul>
+            </div>
+            <div class="skill">
+                <h3>Certificates</h3>
+                <div class="links">
+                    <li><a href="./2026-ICPC Egyptian Teens OQPC-Loai Maklad-PLACE.pdf" target="_blank">ECPC Teens Certificate Contestant</a></li>
+                    <li><a href="./2026-ICPC Egyptian Teens QPC-PLACE.pdf" target="_blank">ECPC Teens Certificate Team</a></li>
+                    <li><a href="./lv1.pdf" target="_blank">Udacity Deci Level 1</a></li>
+                    <li><a href="./lv2.pdf" target="_blank">Udacity Deci Level 2</a></li>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="ecpc">
+        <h2>ECPC Teens El-Dawlyeen 2025 (Loai Maklad & Yonis Zakzouk)</h2>
+        <figure>
+            <img src="Team.jfif" alt="Loai & Yonis ECPC 2025">
+            <figcaption>ECPC El-Dawlyeen 2025 Rank Top 30%</figcaption>
+          </figure>
+        <p>Achieved a commendable rank significantly above the median in a challenging contest, which featured problems typically designed for master and expert-level competitors.</p>
+        <p>We have hit an excellent rank from the first try.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>You can reach out to Loai via email or through his programming and social media profiles.</p>
+        <div class="social">
+            <a href="https://github.com/LoaiKhM" target="_blank">GitHub</a>
+            <a href="https://facebook.com/loai.khalidmaklad" target="_blank">Facebook</a>
+            <a href="https://instagram.com/loai.kh8" target="_blank">Instagram</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Loai Maklad. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
